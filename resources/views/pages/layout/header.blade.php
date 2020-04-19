@@ -10,18 +10,25 @@
 
 <body>
     <header>
-        <div class="logos">
-            <h1>Dhikrama Web</h1>
-        </div>
         <nav>
+            <div class="logos">
+                <h1><a href="/">Dhikrama Web</a></h1>
+            </div>
             <ul>
-                <li><a href="/"></a>Home</li>
-                <li><a href="/"></a>About Us</li>
-                <li><a href="/"></a>Contact Us</li>
-                <li><a href="/"></a>Services</li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Services</a></li>
             </ul>
         </nav>
     </header>
+    <main>
+        @yield('content')
+    </main>
+    <footer>
+        @include('pages.layout.footer')
+        @include('css.style')
+    </footer>
 </body>
 
 </html>
