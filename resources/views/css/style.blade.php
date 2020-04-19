@@ -1,9 +1,6 @@
 <style>
-    @font-face {
-        src: url(fonts/GreatVibes-Regular.ttf);
-        font-family: 'great vibes';
-        font-display: swap
-    }
+    @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Sonsie+One&display=swap');
 
     * {
         margin: 0;
@@ -12,26 +9,55 @@
         list-style-type: none;
     }
 
-    .logos {
-        font-family: 'Great Vibes', cursive;
+    nav .logos {
+        font-family: 'Sonsie One', cursive;
         font-display: swap;
+
+    }
+
+    nav .logos a {
+        color: #FFFFFF
     }
 
     body {
-        font-family: Arial, Helvetica, sans-serif
+        font-family: 'Montserrat', sans-serif;
+        font-display: swap;
     }
 
     nav {
         display: flex;
-        background-color: whitesmoke;
-        justify-content: space-between;
+        background-color: #333333;
+        justify-content: space-around;
         padding: 10px 0;
     }
 
     nav ul {
         display: flex;
-        justify-content: space-around;
-        width: 40%;
+        justify-content: space-between;
+        width: 30%;
         align-items: center;
+        font-style: bold;
+    }
+
+    nav ul li a {
+        font-size: 0.8em;
+        color: #DDDF02
+    }
+
+    nav ul li a:hover {
+        color: #FFDF02
+    }
+
+    /* mobile */
+    @media screen and (max-width: 768px) {
+        nav ul {
+            width: 50%
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        nav ul {
+            display: none;
+        }
     }
 </style>
