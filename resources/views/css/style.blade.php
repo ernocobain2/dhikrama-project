@@ -1,6 +1,6 @@
 <style>
     @font-face {
-        src: url(font/GreatVibes-Regular.ttf);
+        src: url(fonts/GreatVibes-Regular.ttf);
         font-family: 'great vibes';
         font-display: swap
     }
