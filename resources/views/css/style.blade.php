@@ -1,9 +1,20 @@
 <style>
+    @font-face {
+        src: url(font/GreatVibes-Regular.ttf);
+        font-family: 'great vibes';
+        font-display: swap
+    }
+
     * {
         margin: 0;
         padding: 0;
         text-decoration: none;
         list-style-type: none;
+    }
+
+    .logos {
+        font-family: 'Great Vibes', cursive;
+        font-display: swap;
     }
 
     body {
