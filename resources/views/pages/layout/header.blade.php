@@ -10,6 +10,14 @@
 
 <body>
     <header>
+        <div class="extra">
+            <div class="tlp">
+                <a href="tel:0000000">08571999999</a>
+            </div>
+            <div class="place">
+                <a href="http://">JL.Bend Jago RT 04/03 Serdang</a>
+            </div>
+        </div>
         <nav>
             <div class="logos">
                 <h1><a href="/">Dhikrama Web</a></h1>
@@ -20,6 +28,13 @@
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Services</a></li>
             </ul>
+
+            <div class="menu-burger">
+                <a href="#"><img src="images/favicon.ico" alt="toggle"></a>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
     <main>
@@ -29,6 +44,7 @@
         @include('pages.layout.footer')
         @include('css.style')
     </footer>
+    @include('js.menu')
 </body>
 
 </html>
