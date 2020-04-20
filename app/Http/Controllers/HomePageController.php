@@ -13,7 +13,7 @@ class HomePageController extends Controller
      */
     public function index()
     {
-        return view('pages.admin_page.index');
+        return view('pages.index.index');
     }
 
     /**

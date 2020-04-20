@@ -22,7 +22,7 @@
         <div class="logos-header">
             <h1>dikrama Web</h1>
             <div class="container-icons">
-                <span class="icon-facebook"></span>
+                <a href="https://web.facebook.com/dikramagroup/?_rdc=1&_rdr" class="icon-facebook"></a>
                 <span class="icon-youtube"></span>
                 <span class="icon-whatsapp"></span>
             </div>
@@ -51,7 +51,7 @@
         </nav>
     </header>
     <main>
-        @yield('content')
+        @yield('main-content')
     </main>
     <footer>
         @include('pages.layout.footer')
