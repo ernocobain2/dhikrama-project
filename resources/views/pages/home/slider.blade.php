@@ -1,4 +1,3 @@
-@include('css.home.slider')
 <div class="slider-wrapper">
     <div class="slider">
         <input type="radio" name="slider" class="trigger" id="one" checked="checked" />
@@ -6,7 +5,7 @@
             <figure class="slide-figure">
                 <img class="slide-img" src="images/banner3.jpg" alt="slideshow1" />
                 <figcaption class="slide-caption">
-                    <p>...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, voluptas?</p>
                 </figcaption>
             </figure><!-- .slide-figure -->
         </div><!-- .slide -->
@@ -15,7 +14,7 @@
             <figure class="slide-figure">
                 <img class="slide-img" src="images/banner2.jpg" alt="slideshow1" />
                 <figcaption class="slide-caption">
-                    <p>...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, assumenda.</p>
                 </figcaption>
             </figure><!-- .slide-figure -->
         </div><!-- .slide -->
@@ -24,7 +23,7 @@
             <figure class="slide-figure">
                 <img class="slide-img" src="images/banner3.jpg" alt="slideshow1" />
                 <figcaption class="slide-caption">
-                    <p>...</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, unde?</p>
                 </figcaption>
             </figure><!-- .slide-figure -->
         </div><!-- .slide -->
