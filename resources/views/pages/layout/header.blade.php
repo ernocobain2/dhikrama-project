@@ -19,9 +19,23 @@
                 <a href="http://">JL.Bend Jago RT 04/03 Serdang</a>
             </div>
         </div>
+        <div class="logos-header">
+            <h1>dikrama Web</h1>
+            <div class="container-icons">
+                <span class="icon-facebook"></span>
+                <span class="icon-youtube"></span>
+                <span class="icon-whatsapp"></span>
+            </div>
+        </div>
         <nav>
-            <div class="logos">
-                <h1><a href="/">Dhikrama Web</a></h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+            <div class="home">
+                <h1><a href="/">Home</a></h1>
             </div>
             <ul>
                 <li><a href="#">Home</a></li>
