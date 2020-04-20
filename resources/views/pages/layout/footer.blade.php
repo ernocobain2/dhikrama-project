@@ -31,7 +31,7 @@
   echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?> Dikrama Web ||
         </span>
         <span>
-            Design by. <a href="#">Joko Joki</a>
+            Design by. <a href="https://web.facebook.com/tiada.kata.meyerah/" rel="nofollow">Joko Joki</a>
         </span>
     </div>
 </div>

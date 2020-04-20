@@ -79,7 +79,7 @@
     nav ul {
         display: flex;
         justify-content: space-between;
-        width: 30%;
+        width: 25%;
         align-items: center;
         font-style: bold;
         transform-origin: 0 -80%;
