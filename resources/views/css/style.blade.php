@@ -19,14 +19,19 @@
     /*Start Header*/
     .logos-header {
         display: flex;
-        background-color: #1F4447;
+        background: #bdc3c7;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #2c3e50, #bdc3c7);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         height: 100px;
         align-items: center;
     }
 
     .logos-header {
         display: flex;
-        color: #DDDF02;
+        color: #F0F8F2;
         font-family: 'Sonsie One', cursive;
         justify-content: space-around;
     }
@@ -48,7 +53,14 @@
         border-right-width: 0;
         border-left-width: 0;
         border-style: solid;
-        border-color: gray
+        border-color: gray;
+        background: #fceabb;
+        /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #f8b500, #fceabb);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #f8b500, #fceabb);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     }
 
     nav .home {
@@ -75,7 +87,7 @@
 
     nav ul li a {
         font-size: 0.8em;
-        color: #3A5F62
+        color: #26272B;
     }
 
     nav ul li a:hover {
@@ -208,26 +220,46 @@
 
     .column-footer {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         grid-gap: 2em;
         color: white;
         justify-content: space-between;
-        margin: 20px 30px;
-
+        margin: 0 15px
     }
 
     .column-footer p {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif
+        text-align: start;
+        font-family: normal;
     }
 
     .content-footer {
-        color: aliceblue
+        color: #F0F8F2;
+        background-color: #45464A;
+        margin: 20px 10px;
+        padding: 5px 10px;
+    }
+
+    .content-footer h3 {
+        text-align: center;
+        font-family: 'Sonsie One', cursive;
+        margin-bottom: 10px
     }
 
     .copyright {
-        text-align: center;
-        background-color: gray;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #26272B;
+        color: #D8D9D9;
+        height: 30px;
+    }
+
+    .copyright-content span {
+        font-size: 0.8em;
+    }
+
+    .copyright-content span a {
+        color: #A8BCBE
     }
 
 
@@ -235,7 +267,7 @@
     @media screen and (max-width: 768px) {
 
         nav ul {
-            width: 40%
+            width: 35%
         }
 
         .logos-header h1 {

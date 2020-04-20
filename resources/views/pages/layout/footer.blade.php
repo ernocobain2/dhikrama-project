@@ -23,5 +23,15 @@
 </div>
 
 <div class="copyright">
-    ini copyright
+    <div class="copyright-content">
+        <span>
+            &copy; <?php
+  $fromYear = 2008; 
+  $thisYear = (int)date('Y'); 
+  echo $fromYear . (($fromYear != $thisYear) ? '-' . $thisYear : '');?> Dikrama Web ||
+        </span>
+        <span>
+            Design by. <a href="#">Joko Joki</a>
+        </span>
+    </div>
 </div>
