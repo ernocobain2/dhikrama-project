@@ -29,16 +29,14 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Services</a></li>
             </ul>
             <div class="home">
-                <h1><a href="/">Home</a></h1>
+                <h2><a href="/">Home</a></h2>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">Services</a></li>

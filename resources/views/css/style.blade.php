@@ -13,8 +13,10 @@
         font-family: 'Montserrat', sans-serif;
         font-display: swap;
         overflow-x: hidden;
+        height: 100vh;
     }
 
+    /*Start Header*/
     .logos-header {
         display: flex;
         background-color: #1F4447;
@@ -41,6 +43,12 @@
         padding: 10px 0;
         position: relative;
         z-index: 1;
+        border-bottom-width: 2px;
+        border-top-width: 0;
+        border-right-width: 0;
+        border-left-width: 0;
+        border-style: solid;
+        border-color: gray
     }
 
     nav .home {
@@ -263,5 +271,29 @@
         content: "\1f318";
         color: #f00;
         font-size: 50px;
+    }
+
+    /*end header*/
+
+    /*start footer*/
+    footer {
+        background-color: #35363A;
+        margin-top: 400px;
+    }
+
+    .column-footer {
+        display: flex;
+        color: white;
+        justify-content: space-evenly;
+        margin: 0 30px
+    }
+
+    .content-footer {
+        height: 100px
+    }
+
+    .copyright {
+        text-align: center;
+        background-color: gray;
     }
 </style>
