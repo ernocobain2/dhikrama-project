@@ -5,3 +5,6 @@
 @section('main-content')
 @include('pages.home.slider')
 @endsection
+@section('js')
+@include('js/sticky')
+@endsection

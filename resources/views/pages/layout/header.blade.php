@@ -28,28 +28,30 @@
                 <span class="icon-youtube"></span>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Services</a></li>
-            </ul>
-            <div class="home">
-                <h2><a href="/">Home</a></h2>
-            </div>
-            <ul>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Services</a></li>
-            </ul>
+        <div id="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+                <div class="home">
+                    <h2><a href="/">Home</a></h2>
+                </div>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
 
-            <div class="menu-burger">
-                <a href="#"><img src="images/favicon.ico" alt="toggle"></a>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </nav>
+                <div class="menu-burger">
+                    <a href="#"><img src="images/favicon.ico" alt="toggle"></a>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
     </header>
     <main>
         @yield('main-content')
@@ -59,6 +61,7 @@
         @include('css.style')
     </footer>
     @include('js.menu')
+    @yield('js')
 </body>
 
 </html>
