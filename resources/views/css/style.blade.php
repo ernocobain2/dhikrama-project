@@ -46,6 +46,7 @@
         position: fixed;
         top: 0;
         width: 100%;
+        z-index: 4;
     }
 
     /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
@@ -59,11 +60,7 @@
         padding: 10px 0;
         position: relative;
         z-index: 1;
-        border-bottom-width: 2px;
-        border-top-width: 0;
-        border-right-width: 0;
-        border-left-width: 0;
-        border-style: solid;
+        border-bottom: 2px solid;
         border-color: gray;
         background: #fceabb;
         /* fallback for old browsers */
@@ -226,7 +223,6 @@
     /*start footer*/
     footer {
         background-color: #35363A;
-        margin-top: 100px;
     }
 
     .column-footer {
@@ -244,7 +240,7 @@
     }
 
     .content-footer {
-        color: #F0F8F2;
+        color: white;
         background-color: #45464A;
         margin: 20px 10px;
         padding: 5px 10px;
@@ -304,7 +300,12 @@
         nav ul {
             flex-direction: column;
             position: absolute;
-            background-color: #F5F5F0;
+            background: #bdc3c7;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #2c3e50, #bdc3c7);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
             height: 98.3vh;
             justify-content: space-evenly;
             align-items: center;
@@ -313,6 +314,7 @@
             transform: rotate(0.1deg) scaleY(0);
             opacity: 0;
             transition: all 1s;
+            top: -0.3px
         }
 
 
@@ -323,6 +325,7 @@
 
         nav ul li a {
             font-family: 'Sonsie One', cursive;
+            color: aliceblue
         }
 
         .extra {

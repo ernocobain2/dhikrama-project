@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Menerima Jasa Pembangunan Rumah Huni">
     @yield('css')
-    <title>Document</title>
+    <title>Dhikrama Web</title>
 </head>
 
 <body>
