@@ -232,8 +232,7 @@
 
     /*start footer*/
     footer {
-        background-image: url("../images/brick-background.webp");
-        background-color: #35363A;
+        background-color: #403E3
     }
 
     .column-footer {

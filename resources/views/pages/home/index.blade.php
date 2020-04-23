@@ -10,4 +10,5 @@
 @endsection
 @section('js')
 @include('js/sticky')
+@include('js/slider')
 @endsection
