@@ -4,7 +4,9 @@
 @endsection
 @section('main-content')
 @include('pages.home.slider')
+@include('pages.home.welcome')
 @include('pages.home.blog')
+@include('pages.home.subscribe')
 @endsection
 @section('js')
 @include('js/sticky')

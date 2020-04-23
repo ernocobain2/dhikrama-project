@@ -23,9 +23,15 @@
         <div class="logos-header">
             <h1>dikrama Web</h1>
             <div class="container-icons">
-                <span class="icon-whatsapp"></span>
-                <a href="https://web.facebook.com/dikramagroup/?_rdc=1&_rdr" class="icon-facebook"></a>
-                <span class="icon-youtube"></span>
+                <span class="icon-whatsapp">
+                    <p>Whatsapp</p>
+                </span>
+                <a href="https://web.facebook.com/dikramagroup/?_rdc=1&_rdr" class="icon-facebook">
+                    <p>facebook</p>
+                </a>
+                <span class="icon-youtube">
+                    <p>Youtube</p>
+                </span>
             </div>
         </div>
         <div id="navbar">
@@ -62,6 +68,7 @@
     </footer>
     @include('js.menu')
     @yield('js')
+    @yield('css.style')
 </body>
 
 </html>

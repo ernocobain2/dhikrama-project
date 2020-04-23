@@ -14,17 +14,25 @@
         font-display: swap;
         overflow-x: hidden;
         height: 100vh;
+        background-image: url("../images/brick-background.webp");
+        background-color: #35363A;
+
+    }
+
+    .icon-facebook p,
+    .icon-whatsapp p,
+    .icon-youtube p {
+        padding-top: 10px;
+        color: whitesmoke;
+        font-family: 'Sonsie One', cursive;
+        font-size: 0.7em;
     }
 
     /*Start Header*/
     .logos-header {
         display: flex;
-        background: #bdc3c7;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #2c3e50, #bdc3c7);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-image: url("../images/brick-background.webp");
+        background-color: #35363A;
         height: 100px;
         align-items: center;
     }
@@ -37,9 +45,11 @@
     }
 
     .container-icons {
-        display: flex;
-        justify-content: space-between;
-        width: 20%
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 20%;
+        gap: 2em;
+
     }
 
     .sticky {
@@ -104,7 +114,7 @@
 
 
     .extra {
-        background-color: #1E1E1E;
+        background-image: url('../images/background-black.jpg');
         display: flex;
         justify-content: space-between;
         padding: 5px 20px
@@ -222,6 +232,7 @@
 
     /*start footer*/
     footer {
+        background-image: url("../images/brick-background.webp");
         background-color: #35363A;
     }
 
@@ -300,12 +311,8 @@
         nav ul {
             flex-direction: column;
             position: absolute;
-            background: #bdc3c7;
-            /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
-            /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #2c3e50, #bdc3c7);
-            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background-image: url("../images/brick-background.webp");
+            background-color: #35363A;
             height: 98.3vh;
             justify-content: space-evenly;
             align-items: center;
@@ -357,4 +364,6 @@
             grid-template-rows: repeat(3, 1fr)
         }
     }
+
+    .container {}
 </style>
