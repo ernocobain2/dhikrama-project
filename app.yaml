@@ -1,8 +1,14 @@
-runtime: php72
+runtime: php
+env: flex
+
+runtime_config:
+  document_root: public
+
+# Ensure we skip ".env", which is only for local development
+skip_files:
+  - .env
 
 env_variables:
-  ## Put production environment variables here.
-  APP_KEY: R+W882b7EyhQHYfqnLt2spPfEoJ7Sdys08b2WNQnDI4=
-  APP_STORAGE: /tmp
-  VIEW_COMPILED_PATH: /tmp
-  SESSION_DRIVER: cookie
+  # Put production environment variables here.
+  APP_LOG: errorlog
+  APP_KEY: base64:fiQV9j80RO6XGCI+e6X9HpA2b8hTNwfY2EGmbF2CLSs=
